@@ -7,9 +7,13 @@ export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "jsm-x9",
     project: "javascript-react"
-  })],
+  }),
+],
+
+   
+  base: "/AppleWebsite/",
 
   build: {
     sourcemap: true
-  }
-})
+  },
+});
